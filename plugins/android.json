@@ -1,0 +1,134 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-advanced-http": {
+      "ANDROIDBLACKLISTSECURESOCKETPROTOCOLS": "SSLv3,TLSv1",
+      "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-android-rootbeer": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-antitampering": {
+      "EXCLUDE_ASSETS_EXTENSIONS": " ",
+      "ENABLE_CORDOVA_CALLBACK": "false",
+      "ENABLE_DEBUG_DETECTION": "false",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-app-exit": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-camera": {
+      "ANDROIDX_CORE_VERSION": "1.6.+",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-dbcopy": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-enable-multidex": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-exit": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-file": {
+      "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_FCM_AUTOINIT_ENABLED": "true",
+      "ANDROID_ICON_ACCENT": "#FF00FFFF",
+      "ANDROID_FIREBASE_PERFORMANCE_MONITORING": "false",
+      "ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION": "18.0.1",
+      "ANDROID_PLAY_SERVICES_AUTH_VERSION": "20.2.0",
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "21.0.0",
+      "ANDROID_FIREBASE_MESSAGING_VERSION": "23.0.5",
+      "ANDROID_FIREBASE_CONFIG_VERSION": "21.1.0",
+      "ANDROID_FIREBASE_PERF_VERSION": "20.0.6",
+      "ANDROID_FIREBASE_AUTH_VERSION": "21.0.4",
+      "ANDROID_FIREBASE_INAPPMESSAGING_VERSION": "20.1.2",
+      "ANDROID_FIREBASE_FIRESTORE_VERSION": "24.1.2",
+      "ANDROID_FIREBASE_FUNCTIONS_VERSION": "20.1.0",
+      "ANDROID_FIREBASE_IID_VERSION": "21.1.0",
+      "ANDROID_FIREBASE_INSTALLATIONS_VERSION": "17.0.1",
+      "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "18.2.10",
+      "ANDROID_FIREBASE_CRASHLYTICS_NDK_VERSION": "18.2.10",
+      "ANDROID_GSON_VERSION": "2.9.0",
+      "ANDROID_FIREBASE_PERF_GRADLE_PLUGIN_VERSION": "1.4.1",
+      "ANDROID_GRPC_OKHTTP": "1.46.0",
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-insomnia": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-iroot": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-mlkit-barcode-scanner": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-ns0m-file-transfer": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-proguard": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "net.gcsolutions.wizdomgo"
+    }
+  }
+}

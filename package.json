@@ -13,15 +13,107 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "cordova": {
-    "platforms": [
-      "android"
-    ],
+    "platforms": [],
     "plugins": {
-      "cordova-plugin-proguard": {}
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-actionsheet": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-datepicker": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-enable-multidex": {},
+      "cordova-plugin-file": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0"
+      },
+      "cordova-plugin-file-opener2": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      },
+      "cordova-plugin-app-exit": {},
+      "cordova-plugin-dbcopy": {},
+      "cordova-plugin-insomnia": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-zip": {},
+      "es6-promise-plugin": {},
+      "cordova-plugin-ns0m-file-transfer": {},
+      "cordova-plugin-advanced-http": {
+        "ANDROIDBLACKLISTSECURESOCKETPROTOCOLS": "SSLv3,TLSv1"
+      },
+      "cordova-plugin-exit": {},
+      "cordova-plugin-android-rootbeer": {},
+      "cordova-plugin-mlkit-barcode-scanner": {},
+      "cordova-plugin-firebasex": {
+        "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+        "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+        "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+        "FIREBASE_FCM_AUTOINIT_ENABLED": "true",
+        "IOS_USE_PRECOMPILED_FIRESTORE_POD": "false",
+        "ANDROID_ICON_ACCENT": "#FF00FFFF",
+        "ANDROID_FIREBASE_PERFORMANCE_MONITORING": "false",
+        "ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION": "18.0.1",
+        "ANDROID_PLAY_SERVICES_AUTH_VERSION": "20.2.0",
+        "ANDROID_FIREBASE_ANALYTICS_VERSION": "21.0.0",
+        "ANDROID_FIREBASE_MESSAGING_VERSION": "23.0.5",
+        "ANDROID_FIREBASE_CONFIG_VERSION": "21.1.0",
+        "ANDROID_FIREBASE_PERF_VERSION": "20.0.6",
+        "ANDROID_FIREBASE_AUTH_VERSION": "21.0.4",
+        "ANDROID_FIREBASE_INAPPMESSAGING_VERSION": "20.1.2",
+        "ANDROID_FIREBASE_FIRESTORE_VERSION": "24.1.2",
+        "ANDROID_FIREBASE_FUNCTIONS_VERSION": "20.1.0",
+        "ANDROID_FIREBASE_IID_VERSION": "21.1.0",
+        "ANDROID_FIREBASE_INSTALLATIONS_VERSION": "17.0.1",
+        "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "18.2.10",
+        "ANDROID_FIREBASE_CRASHLYTICS_NDK_VERSION": "18.2.10",
+        "ANDROID_GSON_VERSION": "2.9.0",
+        "ANDROID_FIREBASE_PERF_GRADLE_PLUGIN_VERSION": "1.4.1",
+        "ANDROID_GRPC_OKHTTP": "1.46.0"
+      },
+      "cordova-plugin-iroot": {},
+      "cordova-plugin-antitampering": {
+        "EXCLUDE_ASSETS_EXTENSIONS": " ",
+        "ENABLE_CORDOVA_CALLBACK": "false",
+        "ENABLE_DEBUG_DETECTION": "false"
+      },
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-proguard": {},
+      "cordova-universal-links-plugin": {}
     }
   },
   "dependencies": {
-    "cordova-plugin-proguard": "2.2.0"
+    "cordova-plugin-actionsheet": "2.3.3",
+    "cordova-plugin-advanced-http": "3.3.1",
+    "cordova-plugin-android-rootbeer": "1.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
+    "cordova-plugin-antitampering": "0.4.2",
+    "cordova-plugin-app-exit": "0.0.2",
+    "cordova-plugin-buildinfo": "4.0.0",
+    "cordova-plugin-camera": "6.0.0",
+    "cordova-plugin-datepicker": "0.9.3",
+    "cordova-plugin-dbcopy": "2.1.2",
+    "cordova-plugin-device": "2.1.0",
+    "cordova-plugin-dialogs": "2.0.2",
+    "cordova-plugin-enable-multidex": "0.2.0",
+    "cordova-plugin-exit": "1.0.3",
+    "cordova-plugin-file": "7.0.0",
+    "cordova-plugin-file-opener2": "3.0.5",
+    "cordova-plugin-firebasex": "14.2.1",
+    "cordova-plugin-inappbrowser": "5.0.0",
+    "cordova-plugin-insomnia": "4.3.0",
+    "cordova-plugin-iroot": "3.1.0",
+    "cordova-plugin-keyboard": "1.2.0",
+    "cordova-plugin-mlkit-barcode-scanner": "3.0.7",
+    "cordova-plugin-network-information": "3.0.0",
+    "cordova-plugin-ns0m-file-transfer": "2.0.0-7",
+    "cordova-plugin-proguard": "2.2.0",
+    "cordova-plugin-screen-orientation": "3.0.2",
+    "cordova-plugin-zip": "3.1.0",
+    "cordova-sqlite-storage": "6.1.0",
+    "cordova-universal-links-plugin": "1.2.1",
+    "es6-promise-plugin": "4.2.2"
   },
   "devDependencies": {
     "cordova-android": "^11.0.0"

@@ -1,0 +1,52 @@
+{
+  "name": "cordova-plugin-mlkit-barcode-scanner",
+  "version": "3.0.7",
+  "description": "Google MLKit Vision Barcode Scanner Plugin",
+  "cordova": {
+    "id": "cordova-plugin-mlkit-barcode-scanner",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Florian Biebel",
+  "license": "MIT",
+  "main": "www/BarcodeScanner.contract.js",
+  "prettier": "@teckel.ts-internal/prettier-config",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "npm run transpile",
+    "clean": "mkdir -p 'www' && find 'www' ! -path 'www' -delete",
+    "lint": "eslint . --ext .js,.ts --cache && tsc -p tsconfig.lint.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "rollup --config --silent",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "/src/",
+    "/www/**/*.{js,js.map,d.ts}",
+    "/plugin.xml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner.git"
+  },
+  "homepage": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "20.0.0",
+    "@rollup/plugin-node-resolve": "13.0.4",
+    "@types/cordova": "0.0.34",
+    "@types/node": "16.7.1",
+    "eslint": "7.32.0",
+    "rollup": "2.56.3",
+    "rollup-plugin-typescript2": "0.30.0",
+    "tslib": "2.3.1"
+  }
+}
