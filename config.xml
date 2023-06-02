@@ -8,5 +8,27 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-
+    <!-- cordova-universal-links-plugin -->
+    <universal-links>
+        <ios-team-id value="QYZLF5VKMD" />
+        <host name="gcubelmsqc.gc-solutions.net" scheme="https">
+            <path event="keycloak" url="*" />
+        </host>
+    </universal-links>
+    <preference name="scheme" value="app" />
+    <preference name="hostname" value="gcubelmsqc.gc-solutions.net" />
+    <!-- open singleInstance  -->
+    <preference name="AndroidLaunchMode" value="singleInstance" />
+     <!-- ANDROID -->
+    <platform name="android">
+        <!-- cordova-plugin-file -->
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+        <!-- cordova-plugin-android-rootbeer on build/run time -->
+        <resource-file src="wizdomgo-build-extras.gradle" target="cordova-plugin-android-rootbeer\wizdomgo-build-extras.gradle" />
+    </platform>
+    <!-- IOS -->
+    <platform name="ios">
+        <!--  cordova-plugin-file -->
+        <preference name="iosPersistentFileLocation" value="Compatibility" />
+    </platform>
 </widget>
